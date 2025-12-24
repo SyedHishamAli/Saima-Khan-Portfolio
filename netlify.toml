@@ -1,7 +1,7 @@
 [build]
-  command = "npm run build"
+  command = "npm run build && cp -r public .next/standalone/"
   functions = "netlify/functions"
-  publish = ".next"
+  publish = ".next/standalone"
 
 [build.environment]
   NODE_VERSION = "20"

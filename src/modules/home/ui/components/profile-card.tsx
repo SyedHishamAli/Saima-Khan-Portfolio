@@ -52,13 +52,13 @@ const ProfileCard = () => {
 
         <ContactCard
           title="Email"
-          href={`mailto:${config.social.email}`}
+          href={`https://mail.google.com/mail/?view=cm&fs=1&to=saimakhan.official99@gmail.com&su=Contact%20from%20Portfolio`}
           icon={<HiMail className="w-4 h-4" />}
         />
 
         <ContactCard
           title="Contact me"
-          href={`mailto:${config.social.email}`}
+          href={`https://mail.google.com/mail/?view=cm&fs=1&to=saimakhan.official99@gmail.com&su=Contact%20from%20Portfolio`}
           className="bg-primary text-white dark:text-black hover:bg-primary"
         />
       </div>
