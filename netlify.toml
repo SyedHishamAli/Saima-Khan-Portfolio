@@ -4,8 +4,8 @@
   # Let @netlify/plugin-nextjs manage the publish directory
 
 [build.environment]
-  NODE_VERSION = "20"
-  NPM_VERSION = "10"
+  NODE_VERSION = "18"
+  NPM_VERSION = "9"
 
 # API redirects (if needed)
 [[redirects]]
