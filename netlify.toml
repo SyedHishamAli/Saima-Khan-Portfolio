@@ -1,7 +1,7 @@
 [build]
   command = "NEXT_DISABLE_TURBOPACK=1 next build"
+  publish = ".next"
   functions = "netlify/functions"
-  # Let @netlify/plugin-nextjs manage the publish directory
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"  
